@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 03 - Prova B3</title>
     <link rel="stylesheet" href="q03.css">
+
+    <style>
+/* Adicione o estilo para scroll-behavior: smooth */
+.scroll-container {
+display: flex;
+overflow-x: scroll;
+scroll-behavior: smooth;
+width: 100%;
+}
+.section {
+min-width: 100vw;
+height: 100vh;
+}
+</style>
+    
 </head>
 <body>
+    <!-- Código HTML da Porva de Autoria Web - 3B -->
     <h2 class="cb1">Cabeçalho Nível 2</h2>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur a harum autem quaerat minus recusandae soluta consequatur omnis consectetur ullam aperiam odio, corrupti accusantium voluptatibus neque esse sed vero hic quam nesciunt optio itaque tenetur ipsa quibusdam! Dolore odio est officia pariatur fuga quibusdam similique.</p>
@@ -14,5 +30,28 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ut quae cum minima quo. Fuga natus ducimus sunt, voluptatem repellat quibusdam repudiandae voluptates sit sequi, possimus, rem assumenda? Debitis ab labore dolorum tempora eius veniam error possimus esse sunt neque! Quos error sed nostrum minus?</p>
 
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta dignissimos esse atque? Quos, iusto iure voluptate, unde dolor commodi excepturi, vitae dolore eius quia cupiditate laboriosam soluta impedit deleniti autem suscipit consectetur et. Deserunt corporis ea asperiores neque adipisci libero recusandae dicta fuga quaerat illo?</p>   
+    <!-- -->
+
+<button onclick="scrollToSection(1)">Ir para Seção 1</button>
+<button onclick="scrollToSection(2)">Ir para Seção 2</button>
+<button onclick="scrollToSection(3)">Ir para Seção 3</button>
+
+<div class="scroll-container" id="scrollContainer">
+<div class="section" style="background-color: lightblue;">Seção 1</div>
+<div class="section" style="background-color: lightgreen;">Seção 2</div>
+<div class="section" style="background-color: lightcoral;">Seção 3</div>
+</div>
+
+
+<script>
+function scrollToSection(sectionNumber) {
+const container = document.getElementById('scrollContainer');
+const sectionWidth = container.scrollWidth / container.children.length;
+container.scrollLeft = sectionWidth * (sectionNumber - 1);
+}
+</script>
+
+</body>
+</html>
 </body>
 </html>
