@@ -1,0 +1,922 @@
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .rahamim-link-index a h1 {
+        margin-left: -10px;
+        margin-top: -1.5px;
+        font-size: 32px;
+    }
+
+    nav {
+        padding-bottom: 0px;
+    }
+
+    nav .burger-icon {
+        display: block;
+        top: 3%;
+        left: 88.5%;
+        z-index: 9999;
+        position: fixed;
+    }
+    
+    .burger-icon {
+        display: block;
+        max-height: 4%;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .burger-icon:active {
+        transition: 0.05;
+        transform: scale(0.8);
+    }
+
+    
+    nav .cancel-icon {
+        display: none;
+        top: 3%;
+        left: 88.5%;
+        z-index: 9999;
+        position: fixed;
+    }
+    
+    .cancel-icon {
+        display: none;
+        max-height: 3.5%;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .cancel-icon:active {
+        transition: 0.05s;
+        transform: scale(0.8);
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding-top: 53px;
+    }
+    
+    nav ul li a {
+        border-radius: 0px;
+        background-color: none;
+        border: none;
+        border-bottom: 1px solid white;
+        padding-left: 80px;
+        padding-right: 200px;
+    }
+
+    #itemsNav {
+        display: none; /* Esconde o menu no mobile */
+    }
+
+    .a-sobre {
+        border-top: 1px solid white;
+    }
+
+    .a-integrantes {
+        padding-left: 60px;
+    }
+
+    .a-cd {
+        padding-left: 85px;
+    }
+    
+    nav ul li {
+        margin-top: 10px;
+    }
+
+    .contribuir {
+        left: 3%;
+        top: 15%;
+        transition: 0.5s;
+        width: 50%;
+    }
+
+    .contribuir:active {
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .tooltip-text-cont-ts {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .tooltip-text-orig {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tooltip-text-orig-trb1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-trb1 h4, .main-trb2 h4 {
+        font-size: 45px;
+    }
+
+    .main-trb1, .main-trb2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-trb1 {
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    #inicio {
+        display: block;
+        margin-top: -5%;
+    }
+
+    .p-main {
+        font-size: 20px;
+    }
+
+    #sobre {
+        background-size: cover;
+        width: 100vh;
+        height: 100%;
+        padding: 30px;
+        margin-bottom: 200px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .sobre-art .main-h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    #sobre p {
+        font-size: 15px;
+    }
+
+    .sobre-art {
+        margin-top: 1%;
+    }
+
+    #album {
+        background: linear-gradient(160deg, rgba(0, 0, 0, 0.92), rgba(30, 13, 95, 0.6), rgb(0, 0, 0, 0.92)), url("/images/astronauta-bg.png") repeat center top;
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+    }
+
+    #boxIframe {
+        width: 100%;
+    }
+
+    .iframes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(72, 71, 76);
+        border-radius: 40px;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 10px;
+        gap: 10px;
+        transition: 0.3s;
+    }
+    
+    .iframes img {
+        height: 45%;
+        width: 90%;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .iframes a {
+        padding: 10px;
+        transition: 0.3s;
+    }
+
+    .sp img {
+        max-height: 40px;
+        width: 100%;
+    }
+
+    .ap img {
+        max-height: 40px;
+        width: 100%;
+    }
+
+    .de img {
+        max-height: 40px;
+        width: 100%;
+    }
+
+    .sc img {
+        max-height: 40px;
+        width: 100%;
+    }
+
+    .sp:hover {
+        padding: 10px 22% 10px 15px;
+    }
+
+    .ap:hover {
+        padding: 10px 15px 10px 15px;
+    }
+    
+    .de:hover {
+        padding: 10px 15px 10px 15px;
+    }
+    
+    .sc:hover {
+        padding: 10px 15px 10px 22%;
+    }
+
+    .tooltip-text-sp {
+        display: none;
+    }
+
+    .tooltip-text-ap {
+        display: none;
+    }
+
+    .tooltip-text-de {
+        display: none;
+    }
+
+    .tooltip-text-sc {
+        display: none;
+    }
+
+    .art-album {
+        margin-top: 50px;
+        background-color: rgb(0, 0, 0, 0.6);
+    }
+
+    .inicio-a {
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .tooltip-text {
+        display: none;
+    }
+
+    .title-album {
+        margin-top: -150px;
+        margin-bottom: 100px;
+    }
+
+    .p-album {
+        font-size: 16px;
+    }
+
+    .musicas {
+        margin-left: 15px;
+    }
+
+    #integrantes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(200deg, rgba(0, 0, 0, 0.99), rgba(34, 34, 155, 0.4), rgba(0, 0, 0, 0.99));
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-h2 {
+        font-size: 50px;
+    }
+
+    
+
+    /* Gerated by ChatGPT */
+    .first-int-content, .second-int-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .may-integrantes,
+    .vinni-integrantes,
+    .valeria-integrantes,
+    .benito-integrantes,
+    .suellen-integrantes,
+    .jhow-integrantes,
+    .luh-integrantes,
+    .charlie-integrantes,
+    .zegui-integrantes,
+    .marquinhos-integrantes {
+        margin-bottom: 5%;
+        transition: 0.3s;
+    }
+
+    .may-integrantes:hover,
+    .vinni-integrantes:hover,
+    .valeria-integrantes:hover,
+    .benito-integrantes:hover,
+    .suellen-integrantes:hover,
+    .jhow-integrantes:hover,
+    .luh-integrantes:hover,
+    .charlie-integrantes:hover,
+    .zegui-integrantes:hover,
+    .marquinhos-integrantes:hover {
+        border: 2px solid white;
+        box-shadow: 5px 5px 10px rebeccapurple;
+        transition: 0.3s;
+    }
+
+    .may-integrantes img,
+    .vinni-integrantes img,
+    .valeria-integrantes img,
+    .benito-integrantes img,
+    .suellen-integrantes img,
+    .jhow-integrantes img,
+    .luh-integrantes img,
+    .charlie-integrantes img,
+    .zegui-integrantes img,
+    .marquinhos-integrantes img {
+        height: 500px;
+    }
+
+    .may-integrantes {
+        margin-top: -10%;
+    }
+
+    .suellen-integrantes {
+        margin-bottom: -20%;
+    }
+
+    #coloDeDeus {
+        background: linear-gradient(160deg, rgba(0, 0, 0, 0.99), rgba(95, 13, 90, 0.5), rgb(0, 0, 0, 0.92)), url("/images/back-mobile.png") no-repeat center center;
+        background-size: cover;
+        padding: 20px;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .art-cd {
+        width: 90%;
+        margin: auto;
+    }
+
+    .cd-container {
+        display: block;
+    }
+
+    .container-redes, .container-strea {
+        background-color: rgb(0, 0, 0, 0.3);
+        width: 100%;
+    }
+
+    .container-redes, .container-strea {
+        padding: 0px;
+    }
+
+    .instagram {
+        padding: 25px 25px 2px 25px;
+        transition: 0.4s;
+    }
+
+    .facebook {
+        padding: 2px 25px 2px 25px;
+        transition: 0.4s;
+    }
+
+    .twitter {
+        padding: 2px 25px 2px 25px;
+        transition: 0.4s;
+    }
+    
+    .youtube {
+        padding: 2px 15px 25px 25px;
+        transition: 0.4s;
+    }
+
+    .instagram:hover {
+        padding: 10px 10px 10px 35px;
+        margin: 5px 0px 5px 0px;
+        transition: 0.3s;
+    }
+
+    .facebook:hover {
+        padding: 10px 10px 10px 30px;
+        margin: 5px 0px 5px 0px;
+        transition: 0.3s;
+    }
+
+    .twitter:hover {
+        padding: 10px 10px 10px 30px;
+        margin: 5px 0px 5px 0px;
+        transition: 0.3s;
+    }
+
+    .youtube:hover {
+        padding: 10px 10px 10px 30px;
+        margin: 5px 0px 5px 0px;
+        transition: 0.3s;
+    }
+
+    .spotify {
+        padding: 25px 25px 2px 25px;
+        transition: 0.4s;
+    }
+
+    .deezer {
+        padding: 2px 25px 2px 25px;
+        transition: 0.4s;
+    }
+
+    .apple-music {
+        padding: 2px 25px 2px 25px;
+        transition: 0.4s;
+    }
+    
+    .soundcloud {
+        padding: 2px 25px 2px 25px;
+        transition: 0.4s;
+    }
+    
+    .youtube-music {
+        padding: 2px 25px 25px 25px;
+        transition: 0.4s;
+    }
+
+    .spotify:hover {
+        padding: 10px 10px 10px 35px;
+        margin: 5px 0px 5px 0px;
+        transition: 0.3s;
+    }
+
+    .deezer:hover {
+        padding: 10px 10px 10px 30px;
+        margin: 5px 0px 5px 0px;
+        transition: 0.3s;
+    }
+
+    .apple-music:hover {
+        padding: 10px 10px 10px 30px;
+        margin: 5px 0px 5px 0px;
+        transition: 0.3s;
+    }
+
+    .soundcloud:hover {
+        padding: 10px 10px 10px 30px;
+        margin: 5px 0px 5px 0px;
+        transition: 0.3s;
+    }
+
+    .youtube-music:hover {
+        padding: 10px 10px 10px 30px;
+        margin: 5px 0px 5px 0px;
+        transition: 0.3s;
+    }
+
+    #f-contribuidores h3 {
+        font-size: 35px;
+    }
+
+    .f-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 8%;
+        gap: 0px;
+    }
+
+    .f-container .c-misael,
+    .f-container .c-joaov,
+    .f-container .c-andrey,
+    .f-container .c-nivaldo,
+    .f-container .c-deivid,
+    .f-container .c-jgabriel {
+        margin-bottom: 10px;
+    }
+
+    .f-container .c-misael a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .f-container .c-joaov a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .f-container .c-andrey a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .f-container .c-nivaldo a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .f-container .c-deivid a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .f-container .c-jgabriel a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .f-container .c-misael {
+        width: 100%;
+    }
+
+    .f-container .c-joaov {
+        width: 85%;
+    }
+
+    .f-container .c-andrey {
+        width: 100%;
+    }
+
+    .f-container .c-nivaldo {
+        width: 85%;
+    }
+
+    .f-container .c-deivid {
+        width: 100%;
+    }
+
+    .f-container .c-jgabriel {
+        width: 85%;
+    }
+
+    .f-container .c-misael .li-hover:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 20px 0px 20px;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .f-container .c-misael .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 20px 0px 20px;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    
+    .f-container .c-joaov .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 25px 0px 25px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    
+    .f-container .c-nivaldo .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 25px 0px 25px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .f-container .c-deivid .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 15px 0px 15px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .f-container .c-jgabriel .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 30px 0px 30px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .f-container .c-joaov a {
+        padding: 0px 15px;
+    }
+
+    .f-container .c-joaov a:hover {
+        padding: 0px 15px;
+    }
+
+    .f-container .c-nivaldo a:hover {
+        padding: 20px 40px;
+    }
+
+    .f-container .c-jgabriel a:hover {
+        padding: 20px 40px;
+    }
+
+    /* By ChatGPT */
+    /* Estilização do contêiner */
+    .carrossel-container {
+        width: 100%;
+        overflow: hidden;
+        background-color: #222;
+        color: white;
+        padding: 10px 0;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    /* Estilização do carrossel */
+    .carrossel-texto {
+        display: inline-block;
+        white-space: nowrap;
+        animation: rolar 10s linear infinite;
+    }
+
+    /* Animação do carrossel */
+    @keyframes rolar {
+        from {
+            transform: translateX(200%);
+        }
+        to {
+            transform: translateX(-200%);
+        }
+    }
+    .carrossel-center {
+        display: flex;
+    }
+
+    .carrossel-container img {
+        height: 40px;
+        border-radius: 1px solid transparent;
+        border-radius: 20px;
+        box-shadow: 0px 2px 10px black;
+        margin-right: 10px;
+    }
+
+    .p-info1v {
+        text-align: center;
+    }
+
+    .p-info1v, .p-quim2v {
+        border-left: 1px solid white;
+        padding-left: 10px;
+    }
+
+    .quim2v-cont {
+        display: flex;
+    }
+
+    .p-quim2v {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bar-carr {
+        font-family: "Poppins", Roboto, sans-serif;
+        color: rgb(59, 58, 62);
+        margin: 0px 5px 0px 5px;
+    }
+
+    .space-carr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(0, 0, 0, 0.5);
+        padding: 0px 5% 0px 20%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .art-cd {
+        width: 100%;
+    }    
+
+    .youtube {
+        padding: 2px 0px 25px 25px;
+    }
+
+    .spotify {
+        padding: 25px 0px 2px 25px;
+    }
+
+    .deezer {
+        padding: 2px 0px 2px 25px;
+    }
+
+    .apple-music {
+        padding: 2px 0px 2px 25px;
+    }
+    
+    .soundcloud {
+        padding: 2px 0px 2px 25px;
+    }
+    
+    .youtube-music {
+        padding: 2px 0px 25px 25px;
+    }
+
+    .sp:hover {
+        padding: 10px 10% 10px 15px;
+    }
+
+    .sc:hover {
+        padding: 10px 15px 10px 10%;
+    }
+
+    .f-container .c-misael .li-hover:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 5px 20px 3px 20px;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .f-container .c-misael .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    
+    .f-container .c-joaov .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 20px 0px 20px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    
+    .f-container .c-nivaldo .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 20px 0px 20px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .f-container .c-jgabriel .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 20px 0px 20px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .f-container .c-joaov a {
+        padding: 0px 10px;
+    }
+
+    .f-container .c-joaov a:hover {
+        padding: 0px 10px;
+    }
+
+    .f-container .c-nivaldo a:hover {
+        padding: 10px 30px;
+    }
+
+    .f-container .c-jgabriel a:hover {
+        padding: 10px 30px;
+    }
+    
+    .space-carr {
+        padding: 0px 15% 0px 30%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .youtube:hover {
+        padding: 10px 0px 10px 25px;
+    }
+
+    .spotify:hover {
+        padding: 10px 0px 10px 25px;
+    }
+
+    .deezer:hover {
+        padding: 10px 0px 10px 25px;
+    }
+
+    .apple-music:hover {
+        padding: 10px 0px 10px 25px;
+    }
+
+    .soundcloud:hover {
+        padding: 10px 0px 10px 25px;
+    }
+
+    .youtube-music:hover {
+        padding: 10px 0px 10px 25px;
+    }
+
+    .f-container {
+        margin-left: 12%;
+    }
+
+    .f-container .c-misael, 
+    .f-container .c-joaov, 
+    .f-container .c-andrey, 
+    .f-container .c-nivaldo,
+    .f-container .c-deivid, 
+    .f-container .c-jgabriel {
+        width: 80%;
+        padding: 10px 40px 10px 40px;
+    }
+
+    .f-container .c-joaov, 
+    .f-container .c-nivaldo, 
+    .f-container .c-jgabriel {
+        margin-left: 0;
+    }
+
+    .f-container .c-joaov,
+    .f-container .c-jgabriel,
+    .f-container .c-nivaldo {
+        width: 70%;
+        padding: 10px 40px 10px 40px;
+    }
+
+    .f-container .c-misael .li-hover:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 5px 48px 3px 48px;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    
+    .f-container .c-joaov .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 45px 0px 45px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    
+    .f-container .c-nivaldo .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 35px 0px 35px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    
+    .f-container .c-andrey .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 20px 0px 20px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .f-container .c-deivid .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 38px 0px 38px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .f-container .c-jgabriel .li-hover a:hover {
+        background-color: rgba(87, 86, 92, 0.8);
+        padding: 0px 30px 0px 30px; 
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .f-container .c-joaov a {
+        padding: 0px 10px;
+    }
+
+    .f-container .c-joaov a:hover {
+        padding: 0px 10px;
+    }
+
+    .f-container .c-nivaldo a:hover {
+        padding: 10px 30px;
+    }
+
+    .f-container .c-jgabriel a:hover {
+        padding: 10px 30px;
+    }
+    
+    .space-carr {
+        display: none;
+    }
+
+    .quim2v-cont {
+        margin-left: 60%;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    .quim2v-cont {
+        margin-left: 120%;
+    }
+}

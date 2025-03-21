@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahamim (álbum) - Arte I</title>
+    <link rel="icon" href="images/icons/icon-cd.ico" type="image.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <div class="rahamim-link-index">
+                <a href="index.html" class="a-h1">
+                    <h1>Rahamim</h1>
+                </a>
+            </div>
+            <nav id="navId">
+                <img src="images/icons/burguer-icon.png" alt="burger-icon" class="burger-icon" onclick="clickMenu()">
+                <img src="/images/icons/cancel-icon.png" alt="cancel-icon" class="cancel-icon">
+                <div id="itemsNav">
+                    <ul>
+                        <li>
+                            <a href="#sobre" class="a-sobre">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#album" class="a-album">Álbum</a>
+                        </li>
+                        <li>
+                            <a href="#int" class="a-integrantes">Integrantes</a>
+                        </li>
+                        <li>
+                            <a href="#coloDeDeus" id="cd" class="a-cd">+ Colo de Deus</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contribuir" id="contribuidores">
+        <a href="#f-contribuidores" class="cont">
+            <img src="images/icons/contribuir-icon.png" alt="icon-contribuir">
+            <p class="tooltip-text-cont-ts">Contribuidores</p>
+        </a>
+    </div>
+
+    <hr>
+    
+    <main>
+        <section id="inicio">
+            <article class="main-trb1">
+                <div class="main-box-trb">
+                    <a href="images/album-trabalho.png" target="_blank" class="orig">
+                        <img src="images/album-trabalho.png" alt="rahamim-capa" class="main-img">
+                        <p class="tooltip-text-orig-trb1" id="tooltip-text-orig">Álbum reproduzido</p>
+                        <img src="images/icons/link-externo-icon.png" alt="extern-link-icon" class="extern-link-icon">
+                    </a>
+                </div>
+                <h4>Rahamim </h4>
+                <p>Álbum  - Trabalho <br> (Colo de Deus)</p>
+                
+            </article>
+            <article class="main-trb2">
+                
+                <div class="main-box-trb2">
+                    <a href="images/rahamim-cd.jpg" target="_blank" class="orig">
+                        <img src="images/rahamim-cd.jpg" alt="rahamim-capa" class="main-img">
+                        <p class="tooltip-text-orig" id="tooltip-text-orig">Álbum original</p>
+                        <img src="images/icons/link-externo-icon.png" alt="extern-link-icon" class="extern-link-icon">
+                    </a>
+                </div>
+                <h4>Rahamim</h4>
+                <p>Álbum (Colo de Deus)</p>
+                
+            </article>
+        </section>
+        
+        <section id="sobre">
+            <article class="sobre-art">
+                <h2 class="main-h2">Sobre o álbum: Rahamim (Colo de Deus)</h2>
+                
+                <p>O álbum "Rahamim" da <b><a href="https://www.colodedeus.com/" target="_blank" class="m-a">Comunidade Católica Colo de Deus</a></b> foi lançado em 3 de dezembro de 2024, em comemoração aos 20 anos de história da comunidade. Este é o primeiro projeto completo de músicas inéditas após sete anos, refletindo a essência e a intimidade da comunidade com Deus. O álbum pode ser classificado principalmente como post-metal, mas também apresenta influências de outros gêneros como doom metal e progressive metal. 
+
+                <br><br>
+
+                O álbum não é apenas uma coleção de músicas; ele é fruto de um processo de oração e vivência comunitária. Ele foi gravado durante um momento de grande celebração, a Conferência Geração Atômika, realizada em São Paulo, um dos maiores eventos de avivamento da Colo de Deus. Destacado nas categorias de <b>Melhor Álbum e Melhor Produção Musical</b> em prêmios como o <b><a href="https://tv.cancaonova.com/programa/trofeu-louvemos-o-senhor/" target="_blank" class="m-a">Troféu Louvemos o Senhor</a></b>, um dos principais eventos de premiação da música gospel no Brasil.
+                    
+                <br><br>
+
+                O termo "Rahamim" é uma palavra hebraica que significa "misericórdia", transmitindo a ideia de um amor intenso, sem exigências e sem favores, semelhante ao amor de uma mãe. Este nome remete às raízes da comunidade, que inicialmente se chamava "Missão Rahamim", e busca retornar à essência de amor e misericórdia que caracteriza o carisma da <b>Colo de Deus.</b></br>
+
+                </article>
+        </section>
+
+        <section id="album">
+            <article class="art-album">
+
+                <!-- Copilot generated -->
+                <div id="streamingOptions">
+                    <div class="iframes">
+                        <a onclick="changeIframe('spotify')" class="sp">
+                            <img src="/images/icons/spotify-icon-nobg.png" alt="Spotify">
+                            <p class="tooltip-text-sp">Spotify</p>
+                        </a>
+                    
+                        <a onclick="changeIframe('apple')" class="ap">
+                            <img src="/images/icons/am-icon-nobg.png" alt="Apple Music"> 
+                            <p class="tooltip-text-ap">Apple Music</p>
+                        </a>
+                    
+                        <a onclick="changeIframe('deezer')" class="de">
+                            <img src="/images/icons/deezer-icon-nogb.png" alt="Deezer">
+                            <p class="tooltip-text-de">Deezer</p>
+                        </a>
+                    
+                        <a onclick="changeIframe('soundcloud')" class="sc">
+                            <img src="/images/icons/soundcloud-icon.png" alt="SoundCloud">
+                            <p class="tooltip-text-sc">SoundClound</p>
+                        </a>
+                    </div>
+                    
+                    <iframe id="boxIframe" width="400" height="365" frameborder="0" allowtransparency="true" allow="encrypted-media" src="a.html">
+                    </iframe>
+
+                </div>
+
+                <h2 class="title-album">Álbum</h2>
+
+                <p class="p-album">O álbum é composto por 14 faixas que expressam a adoração e a espiritualidade vividas pela comunidade:
+                </p>
+
+                <ol class="musicas">    
+                    <li>Seja Elevado</li>
+                    <li>Deus quero</li>
+                    <li>Jesus</li>
+                    <li>Voz de Trovão</li>
+                    <li>Lázaro</li>
+                    <li>Tire as Paixões</li>
+                    <li>Uma Coisa</li>
+                    <li>João</li>
+                    <li>Emanuel</li>
+                    <li>Ser Mais do Que Ter</li>
+                    <li>Continuo Querendo</li>
+                    <li>Convém Que Tu Cresças</li>
+                    <li>Alto Lugar</li>
+                    <li>[Faixa bônus]</li>
+                </ol>
+                <p>As duas faixas bônus serão disponibilizadas em breve.
+                    A gravação do álbum ocorreu em dezembro de 2024, um dia antes da conferência "Geração Atômika", maior evento de avivamento da comunidade, na cidade de São Paulo. Este projeto busca proporcionar aos ouvintes uma experiência profunda de intimidade com Deus através da música.
+                    <br>
+                    Você pode ouvir o álbum <b>Rahamim</b> nas principais plataformas de streaming, como o 
+                    <a href="https://open.spotify.com/intl-pt/album/2S815H9WNQOhHU3jviAyqM?si=Y8VjL4ZXQn-hs0il_oJakA" target="_blank" class="a-sp">Spotify</a>, 
+                    <a href="https://music.apple.com/pt/album/rahamim/1782195660" target="_blank" class="a-am">Apple Music</a>, 
+                    <a href="https://deezer.page.link/skzeUM6SeK9wL3Pg6" target="_blank" class="a-de">Deezer</a>, 
+                    <a href="https://soundcloud.com/colodedeus/sets/rahamim-4?utm_source=clipboard&utm_campaign=wtshare&utm_medium=widget&utm_content=https%253A%252F%252Fsoundcloud.com%252Fcolodedeus%252Fsets%252Frahamim-4" target="_blank" class="a-sc">SoundClound</a>, 
+                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_kKvP1IwUneSCOeg9b4y6Ef0PcdqsPXBMQ&si=kKPxIAAWjjGvR-Nk" target="_blank" class="a-ym">YouTube Music</a>.
+                </p> 
+            </article>
+        </section>
+
+        <section id="integrantes">
+            <article class="int-art">
+                <h2 class="main-h2" id="int">Integrantes</h2>
+
+                <div class="int-content">
+                    <div class="first-int-content">
+
+                        <div class="may-integrantes">
+                            <img src="images/mayara-hr.png" alt="mayara-hr">
+                            <div class="text-bottom-int">
+                                <a href="https://www.instagram.com/maycolodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                    <img src="images/icons/instagram-icon-rgb.png" alt="instagram-icon-rgb" class="insta-rgb">
+                                    @maycolodedeus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="vinni-integrantes">
+                            <img src="images/vinni-hr.jpg" alt="vinni-hr">
+                            <div class="text-bottom-int">
+                                <a href="https://www.instagram.com/vinnicolodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                    <img src="images/icons/instagram-icon-rgb.png" alt="instagram-icon-rgb" class="insta-rgb">
+                                    @vinnicolodedeus
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="valeria-integrantes">
+                            <img src="images/valeria-hr.png" alt="valeria-hr">
+                            <div class="text-bottom-int">
+                                <a href="https://www.instagram.com/valeriacolodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                    <img src="images/icons/instagram-icon-rgb.png" alt="instagram-icon-rgb" class="insta-rgb">
+                                    @valeriacolodedeus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="benito-integrantes">
+                            <img src="images/benito-hr.png" alt="benito-hr">
+                            <div class="text-bottom-int">
+                                <a href="https://www.instagram.com/benitocolodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                    <img src="images/icons/instagram-icon-rgb.png" alt="instagram-icon-rgb" class="insta-rgb">
+                                    @benitocolodedeus
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="suellen-integrantes">
+                            <img src="images/suellen-hr.png" alt="suellen-hr">
+                            <div class="text-bottom-int">
+                                <a href="https://www.instagram.com/suellencolodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                    <img src="images/icons/instagram-icon-rgb.png" alt="instagram-icon-rgb" class="insta-rgb">
+                                    @suellencolodedeus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-int-content">
+                        <div class="jhow-integrantes">
+                            <img src="images/jhow-hr.png" alt="jhow-hr">
+                            <div class="text-bottom-int">
+                                <a href="https://www.instagram.com/jhowcolodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                    <img src="images/icons/instagram-icon-rgb.png" alt="instagram-icon-rgb" class="insta-rgb">
+                                    @jhowcolodedeus
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="luh-integrantes">
+                            <img src="images/luh-hr.png" alt="luh-hr">
+                            <div class="text-bottom-int">
+                                <a href="https://www.instagram.com/luhbateracolodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                    <img src="images/icons/instagram-icon-rgb.png" alt="instagram-icon-rgb" class="insta-rgb">
+                                    @luhbateracolodedeus
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="charlie-integrantes">
+                            <img src="images/charlie-hr.png" alt="charlie-hr">
+                            <div class="text-bottom-int">
+                                <a href="https://www.instagram.com/charliecolodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                    <img src="images/icons/instagram-icon-rgb.png" alt="instagram-icon-rgb" class="insta-rgb">
+                                    @charliecolodedeus
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="zegui-integrantes">
+                            <img src="images/zegui-vh.png" alt="zegui-hr">
+                            <div class="text-bottom-int">
+                                <a href="https://www.instagram.com/zeguicolodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                    <img src="images/icons/instagram-icon-rgb.png" alt="instagram-icon-rgb" class="insta-rgb">
+                                    @zeguicolodedeus
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="marquinhos-integrantes">
+                            <img src="images/marquinhos-hr.png" alt="marquinhos-hr">
+                            <div class="text-bottom-int">
+                                <a href="https://www.instagram.com/omarquinhoscolodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                    <img src="images/icons/instagram-icon-rgb.png" alt="instagram-icon-rgb" class="insta-rgb">
+                                    @omarquinhos <br> colodedeus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+        </section>
+
+        <section id="coloDeDeus">
+            <article class="art-cd">
+                <h2 id="h2-cd">+ de Colo de Deus</h2>
+
+                <div class="cd-container">
+                    <div class="redes-art">
+                        <h4>Redes Sociais</h4>
+                        <div class="container-redes">
+                            <!-- Instagram -->
+                            <div class="instagram"> 
+                                <a href="https://www.instagram.com/colodedeus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                <img src="images/icons/instagram-icon.png" alt="instagram-icon" height="45">
+                                @colodedeus
+                                <img src="images/icons/link-externo-icon-lf-rg.png" alt="link-externo-icon-lf-rg" class="link-externo-icon-lf">
+                                </a>
+                            </div>
+                            
+                            <!-- Facebook -->
+                            <div class="facebook">
+                                <a href="https://www.facebook.com/colodedeus/" target="_blank" style="text-align: left;">
+                                <img src="images/icons/facebook-icon.png" alt="facebook-icon" height="45">
+                                Comunidade Católica <br> Colo de Deus 
+                                <img src="images/icons/link-externo-icon-lf-rg.png" alt="link-externo-icon-lf-rg" class="link-externo-icon-lf">
+                            </a>
+                            </div>
+
+                            <!-- Twitter -->
+                            <div class="twitter">
+                                <a href="https://x.com/colodedeus" target="_blank">
+                                <img src="images/icons/twitter-icon.png" alt="twitter-icon" height="45">
+                                @colodedeus
+                                <img src="images/icons/link-externo-icon-lf-rg.png" alt="link-externo-icon-lf-rg" class="link-externo-icon-lf">
+                            </a>
+                            </div>
+
+                            <!-- Youtube -->
+                            <div class="youtube">
+                                <a href="https://youtube.com/@comunidadecolodedeus?si=nCYWatttTFELTcov" target="_blank">
+                                <img src="images/icons/youtube-icon.png" alt="youtube-icon" height="45">
+                                Colo de Deus
+                                <img src="images/icons/link-externo-icon-lf-rg.png" alt="link-externo-icon-lf-rg" class="link-externo-icon-lf">
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stre-art">
+                        <h4>Plataformas de Streaming</h4>
+                        <div class="container-strea">
+                            <!-- Spotify -->
+                            <div class="spotify"> 
+                                <img src="images/icons/spotify-icon.png" alt="spotify-icon" height="45">
+                                <a href="https://open.spotify.com/intl-pt/artist/1AY6YtpuVujP4Pa3ibD1M1?si=d2qfxKMFQEe5wmi7b1JBSA" target="_blank">
+                                    Colo de Deus
+                                <img src="images/icons/link-externo-icon-lf-rg.png" alt="link-externo-icon-lf-rg" class="link-externo-icon-rg">
+                                </a>
+                            </div>
+                            
+                            <!-- Deezer -->
+                            <div class="deezer">
+                                <img src="images/icons/deezer-icon-nobg-white.png" alt="deezer-icon" height="45">
+                                <a href="https://deezer.page.link/PeyLW43QG18coVZw7" target="_blank">
+                                    Colo de Deus
+                                <img src="images/icons/link-externo-icon-lf-rg.png" alt="link-externo-icon-lf-rg" class="link-externo-icon-rg">
+                                </a>
+                            </div>
+
+                            <!-- Apple Music -->
+                            <div class="apple-music">
+                                <img src="images/icons/apple-music-icon.png" alt="apple-music-icon" height="45">
+                                <a href="https://music.apple.com/us/artist/colo-de-deus/967566433" target="_blank">
+                                    Colo de Deus
+                                <img src="images/icons/link-externo-icon-lf-rg.png" alt="link-externo-icon-lf-rg" class="link-externo-icon-rg">
+                                </a>
+                            </div>
+
+                            <!-- SoundColud -->
+                            <div class="soundcloud">
+                                <img src="images/icons/soundcloud-icon.png" alt="soundCloud-icon" height="45">
+                                <a href="https://soundcloud.com/colodedeus?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
+                                    Colo de Deus
+                                <img src="images/icons/link-externo-icon-lf-rg.png" alt="link-externo-icon-lf-rg" class="link-externo-icon-rg">
+                                </a>
+                            </div>
+
+                            <!-- Youtube Music -->
+                            <div class="youtube-music">
+                                <img src="images/icons/youtube-music-icon.png" alt="youtube-music-icon" height="45">
+                                <a href="https://music.youtube.com/channel/UCAaNQ4uHme-u09nyi-2x1lQ?si=qkoSEn1d0IMnM57M" target="_blank">
+                                    Colo de Deus
+                                <img src="images/icons/link-externo-icon-lf-rg.png" alt="link-externo-icon-lf-rg" class="link-externo-icon-rg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+    <a href="#top" class="inicio-a" id="btnTop">
+        <img src="/images/icons/seta-para-cima-icon.png" alt="seta-icon">
+        <p class="tooltip-text">Voltar ao início</p>
+    </a>
+
+    <footer id="f-contribuidores">
+        <h3>Contribuidores: </h3>
+        
+        <div class="f-container">
+            <div class="c-misael">
+                <ul>
+                    <li>
+                        <img src="https://avatars.githubusercontent.com/u/196438184?v=4" alt="perfil-misael" class="img-perfil">
+                    </li>
+                    <li class="li-hover">
+                        <a href="https://github.com/MisaelTRBIFRN" target="_blank">
+                            <img src="images/icons/github-icon.png" alt="github-icon" height="20px" class="github-icon">
+                            MisaelTRBIFRN                        
+                        <img src="images/icons/link-externo-icon.png" alt="extern-link-icon" class="extern-link-icon">
+                        </a>
+                    </li>
+                </ul>            
+            </div>
+            
+            <div class="c-joaov">           
+                <ul>
+                    <li>
+                        <img src="https://avatars.githubusercontent.com/u/197806275?v=4" alt="perfil-joao-victor" class="img-perfil">
+                    </li>
+                    <li class="li-hover">
+                        <a href="https://github.com/TrajanoJoaoVictor" target="_blank">
+                            <img src="images/icons/github-icon.png" alt="github-icon" height="20px" class="github-icon">
+                            TrajanoJoaoVictor                        
+                            <img src="images/icons/link-externo-icon.png" alt="extern-link-icon" class="extern-link-icon">
+                        </a>
+                    </li>
+                </ul>            
+            </div>
+            
+            <div class="c-andrey">           
+                <ul>
+                    <li>
+                        <img src="https://avatars.githubusercontent.com/u/196240243?v=4" alt="perfil-andrey" class="img-perfil">
+                    </li>
+                    <li class="li-hover">
+                        <a href="https://github.com/Drr3y" target="_blank">
+                            <img src="images/icons/github-icon.png" alt="github-icon" height="20px" class="github-icon">
+                            Drr3y                        
+                            <img src="images/icons/link-externo-icon.png" alt="extern-link-icon" class="extern-link-icon">
+                        </a>
+                    </li>
+                </ul>            
+            </div>
+
+            <div class="c-nivaldo">
+                <ul>
+                    <li>
+                        <img src="https://avatars.githubusercontent.com/u/196689547?v=4" alt="perfil-nivaldo" class="img-perfil">
+                    </li>
+                    <li class="li-hover">
+                        <a href="https://github.com/NivaldoTaua00" target="_blank">
+                            <img src="images/icons/github-icon.png" alt="github-icon" height="20px" class="github-icon">
+                            NivaldoTaua00                       
+                            <img src="images/icons/link-externo-icon.png" alt="extern-link-icon" class="extern-link-icon">
+                        </a>
+                    </li>
+                </ul>            
+            </div>
+                        
+            <div class="c-deivid">
+                <ul>
+                    <li>
+                        <img src="https://avatars.githubusercontent.com/u/197441523?v=4" alt="perfil-deivid" class="img-perfil">
+                    </li>
+                    <li class="li-hover">
+                        <a href="https://github.com/Deivid1003" target="_blank">
+                            <img src="images/icons/github-icon.png" alt="github-icon" height="20px" class="github-icon">
+                            Deivid1003  
+                            <img src="images/icons/link-externo-icon.png" alt="extern-link-icon" class="extern-link-icon">
+                        </a>
+                    </li>
+                </ul>            
+            </div>
+                        
+            <div class="c-jgabriel">
+                <ul>
+                    <li>
+                        <img src="https://avatars.githubusercontent.com/u/196236017?v=4" alt="perfil-jose-gabriel" class="img-perfil">
+                    </li>
+                    <li class="li-hover">
+                        <a href="https://github.com/Gxbxzxnn" target="_blank">
+                            <img src="images/icons/github-icon.png" alt="github-icon" height="20px" class="github-icon">
+                            Gxbxzxnn                
+                            <img src="images/icons/link-externo-icon.png" alt="extern-link-icon" class="extern-link-icon">
+                        </a>
+                    </li>
+                </ul>            
+            </div>
+        </div>
+    </footer>
+
+    <!-- By ChatGPT -->
+    <div class="carrossel-container">
+        <div class="carrossel-texto">
+            <div class="carrossel-center">
+                <img src="images/info1v-logo.jpg" alt="info1v-logo">
+                <p class="p-info1v">Andrey (INFO 1V) <b class="bar-carr">|</b> Misael B. (INFO 1V) <b class="bar-carr">|</b> José Gabriel (INFO 1V) <br> J. Victor (INFO 1V) <b class="bar-carr">|</b> Nivaldo (INFO 1V)</p>
+
+                <p class="space-carr">•</p>
+
+                <div class="quim2v-cont">
+                    <img src="images/quim2v-logo.jpg" alt="quim2v-logo">
+                    <p class="p-quim2v">Deivid <br> (QUIM 2V)</p>
+                </div>
+            </div>
+           </p>
+        </div>
+    </div>
+
+    <script src="/scripts/script.js"></script>
+                
+</body>
+</html>
