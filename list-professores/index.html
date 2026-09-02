@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de professores</title>
+    <!-- <link rel="icon" href="" type="image/ico"> -->
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h1>Professores propedêuticos</h1>
+                <div class="input-container">
+                    <div class="input-box">
+                        <div class="input-text input-nome-professor">
+                            <label for="nomeProfessor">Nome:</label>
+                            <input type="text" id="nomeProfessorProp" placeholder="Insira um nome..." required>
+                            <span id="limparInputPropNome">✕</span>
+                        </div>
+
+                        <div class="input-text input-disciplina">
+                            <label for="disciplinaProp">Disciplina:</label>
+                            <input type="text" id="disciplinaProp" placeholder="Insira a disciplina...">
+                            <span id="limparInputPropDisciplina">✕</span>
+                        </div>
+                    </div>
+                    <button class="submit-btn" id="inserirProp">Inserir</button>
+                </div>
+
+                <div class="prop-container" id="propContainer">
+                    <table border="1" id="tableProp">
+                        <tr>
+                            <th class="posicao-th">Posição</th>
+                            <th class="nome-th">Nome</th>
+                            <th class="disciplina-th">Disciplina</th>
+                        </tr>
+                        
+                        <tr class="td-itens" id="naoEncontrado">
+                            <td colspan="3" style="text-align: center; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px">Nenhum professor encontrado.</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+
+            <article>
+                <h1>Professores técnicos</h1>
+                <div class="input-container">
+                    <div class="input-box">
+                        <div class="input-text input-nome-professor">
+                            <label for="nomeProfessor">Nome:</label>
+                            <input type="text" id="nomeProfessorTec" placeholder="Insira um nome..." required>
+                            <span id="limparInputTecNome">✕</span>
+                        </div>
+
+                        <div class="input-text input-disciplina">
+                            <label for="disciplinaTec">Disciplina:</label>
+                            <input type="text" id="disciplinaTec" placeholder="Insira a disciplina...">
+                            <span id="limparInputTecDisciplina">✕</span>
+                        </div>
+                    </div>
+                    <button class="submit-btn" id="inserirTec">Inserir</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="/assets/scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #3c3c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    overflow: hidden;
+    /* display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 20px; */
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+main section article {
+    /* overflow-y: scroll; */
+    height: 95vh;
+    width: 48vw;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(162, 161, 161, 0.5);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+}
+
+h1,
+p,
+label {
+    color: white;
+}
+
+.input-container {
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-container .input-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(162, 161, 161, 0.5);
+}
+
+.input-container .input-box .input-text {
+    position: relative;
+    width: 40%;
+    /* overflow: hidden; */
+}
+
+.input-container .input-box .input-text input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-container .input-box .input-text span {
+    display: none;
+    z-index: 1;
+    color: black;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+    padding: 7px 10px 7px 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.8);
+    user-select: none;
+}
+
+.input-container button {
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #8ba4ff;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.prop-container {
+    margin-top: 10px;
+    max-height: 72vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.prop-container table {
+    padding: 5px 3.5px;
+    width: 100%;
+    border-collapse: separate;
+    overflow-y: scroll;
+    table-layout: fixed;
+}
+
+.prop-container table tr th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.prop-container table tr th, .prop-container table tr td {
+    padding: 5px;
+    color: white;
+}
+
+.prop-container table tr th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.prop-container table tr th:last-child {
+    border-top-right-radius: 10px;
+}
+
+/* .prop-container table tr td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.prop-container table tr td:last-child {
+    border-bottom-right-radius: 10px;
+} */
+
+.prop-container table tr .posicao {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+.prop-container table tr .posicao-th {
+    width: 20%;
+}
+
+.prop-container table tr .nome-th, .prop-container table tr .disciplina-th {
+    width: 35%;
+}
+
+.prop-container table tr .nome-td, .prop-container table tr .disciplina-td {
+    word-break: break-all;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prop-container table tr .posicao .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+
+.prop-container table tr .posicao .green {
+    background-color: greenyellow;
+}
+
+.prop-container table tr .posicao .red {
+    background-color: red;
+}
+
+.prop-container table tr .posicao .arrow-up {
+    cursor: pointer;
+    filter: invert(100%);
+    transform: rotate(-90deg);
+    width: 25px;
+    padding: 5px;
+    user-select: none;
+}
+
+.prop-container table tr .posicao .arrow-down {
+    cursor: pointer;
+    filter: invert(100%);
+    transform: rotate(90deg);
+    width: 25px;
+    padding: 5px;
+    user-select: none;
+}
+
+.prop-container table tr .posicao .deletar-prop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.prop-container table tr .disciplina-td {
+    position: relative;
+}
+
+.prop-container table tr .disciplina-td .deletar-prop {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    bottom: 3.5px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 50%;
+    user-select: none;
+}
+
