@@ -110,7 +110,7 @@ function criarNovoProp(nomeProp, disciplinaProp) {
     let arrowUp = document.createElement("div");
     arrowUp.classList.add("arrow", "green");
     let imgArrowUp = document.createElement("img");
-    imgArrowUp.src = "/assets/images/icons/arrow.png";
+    imgArrowUp.src = "./assets/images/icons/arrow.png";
     imgArrowUp.alt = "arrow.png";
     imgArrowUp.classList.add("arrow-up");
     imgArrowUp.setAttribute("id", "arrowUp");
@@ -120,7 +120,7 @@ function criarNovoProp(nomeProp, disciplinaProp) {
     let arrowDown = document.createElement("div");
     arrowDown.classList.add("arrow", "red");
     let imgArrowDown = document.createElement("img");
-    imgArrowDown.src = "/assets/images/icons/arrow.png";
+    imgArrowDown.src = "./assets/images/icons/arrow.png";
     imgArrowDown.alt = "arrow.png";
     imgArrowDown.classList.add("arrow-down");
     imgArrowDown.setAttribute("id", "arrowDown");
